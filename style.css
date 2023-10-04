@@ -1,25 +1,35 @@
 
-
+HTML{
+    display: flex;
+    justify-content: center;
+}
 body{
     justify-content: center;
     width:80%
 }
 
 main{
-    width:70%;
+    width:100%;
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
+    margin-top: 100px;
 }
 
 p{
     font-size: x-small;
-    padding: 15px;
+   text-align: center;
+   align-items: center;
+   color:white;
 }
 
 div{
-    border-radius: 9px;
+   
+    display:flex;
+    justify-content: center;
+   
+    border-radius: 100px 16px ;
+
 }
 
 button{
@@ -27,18 +37,23 @@ button{
     margin: 34px;
     align-items: center;
     font-family: 'Lucida Sans', sans-serif;
-    background-color: rgb(33, 132, 231);
-    color:white;
+    background-color: rgba(48, 48, 48, 0.607);
+    color:rgb(255, 255, 255);
     border:none;
     font-size: 19px;
     padding:15px;
     height:50px;
     border-radius: 10px;
+    position:fixed;
+    
+
+  
+
 }
 
 button:hover{
-    background-color: white;
-    color:grey;
-    border:2px solid grey;
+    background-color: rgba(255, 255, 255, 0.581);
+    color:rgb(55, 54, 54);
+    border:2px solid rgb(38, 37, 37);
     transition:.5s ease;
 }

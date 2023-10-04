@@ -14,7 +14,7 @@ function backGrd (color) {
     
     
     RGB.innerHTML = ` 
-    <div style= "height:100px; width:100px; border-style:2px,solid,black; background-color:rgb(${x}, ${y}, ${z})" ><p>RGB: ${x}, ${y}, ${z}</p></div>
+    <div style= "height:200px; width:200px; background-color:rgb(${x}, ${y}, ${z})" ><p>RGB: ${x}, ${y}, ${z}</p></div>
        `
       
 
