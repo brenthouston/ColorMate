@@ -1,0 +1,44 @@
+
+
+body{
+    justify-content: center;
+    width:80%
+}
+
+main{
+    width:70%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+p{
+    font-size: x-small;
+    padding: 15px;
+}
+
+div{
+    border-radius: 9px;
+}
+
+button{
+    display: flex;
+    margin: 34px;
+    align-items: center;
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: rgb(33, 132, 231);
+    color:white;
+    border:none;
+    font-size: 19px;
+    padding:15px;
+    height:50px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: white;
+    color:grey;
+    border:2px solid grey;
+    transition:.5s ease;
+}
