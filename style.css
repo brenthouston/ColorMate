@@ -1,55 +1,34 @@
-
-HTML{
-    display: flex;
-    justify-content: center;
-}
-body{
-    justify-content: center;
-    width:80%
-}
-
-main{
-    width:100%;
-    display:flex;
-
-    flex-wrap: wrap;
-    margin-top: 100px;
+h1.text{
+    font-size: 550%
 }
 
 p{
-    font-size: x-small;
-   text-align: center;
-   align-items: center;
-   color:white;
+    font-size: small;
+    color:white;
 }
 
 div.swatches{
  
-    display:flex;
-    justify-content: center;
+
    cursor: grab;
     border-radius: 100px 6px ;
 
 }
-h2{
-    z-index: 0;
-    font-family: 'Lucida Sans', sans-serif;
-}
+
 
 button{
+    padding:10px;
     filter: drop-shadow(5px 5px 10px #36364584);
-    display: flex;
-    margin: 34px;
-    align-items: center;
-    font-family: 'Lucida Sans', sans-serif;
-    background-color: rgba(48, 48, 48, 0.607);
+    background-color: rgba(175, 174, 174, 0.607);
     color:rgb(255, 255, 255);
     border:none;
-    font-size: 19px;
-    padding:15px;
-    height:50px;
-    border-radius: 10px;
-    position:fixed;
+    border-radius: 6px !important;
+    position: fixed;
+    top:245px;
+    left:50%;
+    
+
+    
     
 
   
@@ -59,33 +38,19 @@ button{
 button:hover{
     background-color: rgba(255, 255, 255, 0.581);
     color:rgb(55, 54, 54);
-    border:2px solid rgb(38, 37, 37);
+    border:1px solid rgb(38, 37, 37);
     transition:.5s ease;
 }
 
-article{
-    display: flex;
-  
-}
 
 div#box{
-      position: relative;
-        padding: 30px;
-        width: 200px;
-        border: dashed 2px #ccc;
+        min-height: 100px;
+        width: 250px;
+        border: dashed 1px #e3e1e1;
         margin: 10px;
     
 }
 
-.container {
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-
-}
 
 .drop-targets {
     display: flex;

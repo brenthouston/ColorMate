@@ -16,7 +16,7 @@ function backGrd (color) {
     id=${x}
     draggable="true" 
     style= "height:200px; width:200px; background-color:rgb(${x}, ${y}, ${z})" >
-    <p>RGB: ${x}, ${y}, ${z}</p>
+    <p class="pt-4" >RGB: ${x}, ${y}, ${z}</p>
     </div>
        `
      

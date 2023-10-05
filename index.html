@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random color Generator</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <script src="script.js" defer></script>
-</head>
-<body style="display: flex;">
-    <button onclick="backGrd()">CREATE RANDOM SWATCH</button>
-    
-    <article class="container">
-        <div class="drop-target">
-            <div id="box"><h2 style="color: rgb(196, 194, 194);text-align: center;">DROP SWATCHES HERE</h2></div>
+  </head>
+
+  <body class="container text-center bg-light">
+    <header class="p-5 m-5">
+      <h1 class="fw-bold text" >ColorMate</h1>
+    </header>
+
+    <div class="row">
+      <div class="col-3 p-3 ">
+        <article>
+          <div class="drop-target">
+            <div id="box" class="d-flex flex-column align-items-center m-3 bg-white">
+              <p style="color: rgb(196, 194, 194); text-align: center">
+                DROP SWATCHES HERE
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-9">
+        <div class="center">
+          <button onclick="backGrd()">CREATE RANDOM SWATCH</button>
         </div>
-    </article>
-    <main style="justify-content: center;">
-    
-    </main>
-    
-</body>
+        <main  class="d-flex justify-content-start flex-wrap mt-3"></main>
+      </div>
+    </div>
+  </body>
 </html>
