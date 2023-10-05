@@ -11,7 +11,7 @@ body{
 main{
     width:100%;
     display:flex;
-    justify-content: space-around;
+
     flex-wrap: wrap;
     margin-top: 100px;
 }
@@ -23,13 +23,17 @@ p{
    color:white;
 }
 
-div{
-   
+div.swatches{
+ 
     display:flex;
     justify-content: center;
-   
-    border-radius: 100px 16px ;
+   cursor: grab;
+    border-radius: 100px 6px ;
 
+}
+h2{
+    z-index: 0;
+    font-family: 'Lucida Sans', sans-serif;
 }
 
 button{
@@ -57,4 +61,44 @@ button:hover{
     color:rgb(55, 54, 54);
     border:2px solid rgb(38, 37, 37);
     transition:.5s ease;
+}
+
+article{
+    display: flex;
+  
+}
+
+div#box{
+      position: relative;
+        padding: 30px;
+        width: 200px;
+        border: dashed 2px #ccc;
+        margin: 10px;
+    
+}
+
+.container {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.drop-targets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 20px 0;
+}
+.hide{
+    display: none !important;
+}
+
+.drag-over{
+    border: 3px dashed red !important;
 }
