@@ -1,3 +1,8 @@
+main{
+    margin:20px;
+}
+
+
 h1.text{
     font-size: 550%
 }
@@ -25,7 +30,7 @@ button{
     border-radius: 6px !important;
     position: fixed;
     top:245px;
-    left:50%;
+    left: 60vw;
     
 
     
