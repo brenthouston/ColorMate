@@ -1,15 +1,26 @@
+var a = Math.floor(Math.random() * 160)
+
+
+
+const title = document.querySelector("h1")
+const tColor =`rgb(${a},${a},${a})`
+
+title.style.color = tColor
 
 
 // random swatches
 function backGrd (color) {
+var x = Math.floor(Math.random() * 256)
+var y = Math.floor(Math.random() * 256)
+var z = Math.floor(Math.random() * 256)
     
-    var x = Math.floor(Math.random() * 256)
-    var y = Math.floor(Math.random() * 256)
-    var z = Math.floor(Math.random() * 256)
 
     const main = document.querySelector("main")
     const RGB=document.createElement("div")
-    
+
+
+
+ 
     
     RGB.innerHTML = ` 
     <div class="swatches" 
