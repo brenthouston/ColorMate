@@ -14,10 +14,15 @@
 ## Installation
   Open the project via the link to GitHub pages below.
   [Visit Site](https://brenthouston.github.io/ColorMate/)
+
+
+  
     
 ## Usage
   Please see the video demo. [ColorMate Demo](https://drive.google.com/file/d/1MbN1JkupUsbd1HlzeLVFCdxA-LWGzN8R/view)
     ![ColorMate](https://github.com/brenthouston/ColorMate/assets/45694214/30f49f83-28bb-42b4-af07-d7571c5e3764)
+
+
 
     
 ## License
